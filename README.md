@@ -57,11 +57,8 @@ client 端：
 go-afecho$> go run client/go/main.go -n unix -c 500000 -m HelloWorld
 normal quit.
 net=unix , msg.size=10 , r=500000 ,w=500000 , time=1.430734597s avg=349470.825021/s
-```
 
-server 输出：
-
-```bash
+//server 输出：
 --accept--> /tmp/afecho.ipc
 <--close-- /tmp/afecho.ipc  500000 1.449517214s 344942.43681330985
 ```
